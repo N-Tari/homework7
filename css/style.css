@@ -1,0 +1,58 @@
+.bg_img {
+    /* background-image: url('../images/18a98341845153390a56423cab9ee033.jpg'); */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+}
+
+.plane {
+    position:absolute;
+    top: 30px;
+}
+.plane_img {
+    width: 270px;
+    animation: planemove 10s linear infinite alternate;
+    position: absolute;
+}
+
+@keyframes planemove {
+    from {left: 0px;}
+    to {left: 1800px;}
+}
+
+
+.car1 {
+    position: absolute;
+    top: 810px;
+}
+
+.car1_img {
+    width: 200px;
+    animation: car1move 25s linear infinite alternate;
+    position: absolute;
+}
+
+@keyframes car1move {
+    from {left:0px;}
+    to {left:1800px;}
+}
+
+.car2 {
+    position: absolute;
+    top: 880px;
+}
+
+.car2_img {
+    width: 430px;
+    animation: car2move 15s linear infinite alternate;
+    position: absolute;
+}
+
+@keyframes car2move {
+    from {left:1800px;}
+    to {left:0px;}
+}
